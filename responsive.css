@@ -81,14 +81,18 @@
   header{
     height: 10vh;
   }
+  .main-section{
+    display: flex;
+    text-align: center;
+  }
   .main-left,
   .main-right {
     width: 140%;
     max-width: 100%;
+    height: auto;
   }
 .main-img img{
-  max-width: 120%;
-  height: auto;
+  max-width: 140%;
 }
 .about-section{
   width: 90vh;
