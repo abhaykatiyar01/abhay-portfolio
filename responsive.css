@@ -75,6 +75,12 @@
 }
 
 @media (max-width: 768px) {
+  body{
+    width: 100%;
+  }
+  header{
+    height: 10vh;
+  }
   .about-me-left {
     flex-direction: column;
     text-align: center;
