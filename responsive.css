@@ -5,12 +5,14 @@
     width: 100%;
   }
   header{
-    height: 10vh;
+    height: 8vh;
+    margin-bottom: 50px;
   }
   .main-section {
     flex-direction: column;
     text-align: center;
     padding: 60px 5%;
+    margin-top: 80px;
   }
 
   .main-left,
