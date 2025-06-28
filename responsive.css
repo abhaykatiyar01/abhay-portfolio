@@ -106,8 +106,9 @@
     width: 90vh;
     margin-right: 10px;
   }
-  .projects{
+  .projects-section{
     width: 90vh;
+    margin-top: 40px;
     margin-bottom: 20px;
   }
   .projects-grid {
@@ -115,8 +116,8 @@
     align-items: center;
   }
   .project-card {
-    width: 95%;
-    width: 150px;
+    width: 90%;
+    width: 400px;
     height: 220px;
   }
   .form-section{
