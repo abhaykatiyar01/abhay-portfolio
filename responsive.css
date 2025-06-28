@@ -106,6 +106,10 @@
     width: 90vh;
     margin-right: 10px;
   }
+  .projects{
+    width: 90vh;
+    margin-bottom: 20px;
+  }
   .projects-grid {
     flex-direction: column;
     align-items: center;
@@ -115,7 +119,12 @@
     width: 150px;
     height: 220px;
   }
-
+  .form-section{
+    width: 90vh;
+  }
+.footer-section{
+  width: 90vh;
+}
   .footer h2 {
     font-size: 20px;
   }
