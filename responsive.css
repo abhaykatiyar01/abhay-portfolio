@@ -4,6 +4,9 @@
   body{
     width: 100%;
   }
+  header{
+    height: 10vh;
+  }
   .main-section {
     flex-direction: column;
     text-align: center;
@@ -117,5 +120,8 @@
 @media (max-width: 480px) {
   html {
     font-size: 90%;
+  }
+  body{
+    width: auto;
   }
 }
