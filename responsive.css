@@ -81,9 +81,31 @@
   header{
     height: 10vh;
   }
+  .main-left,
+  .main-right {
+    width: 140%;
+    max-width: 100%;
+  }
+.main-img img{
+  max-width: 120%;
+  height: auto;
+}
+.about-section{
+  width: 65vh;
+  margin-right: 10px;
+}
   .about-me-left {
-    flex-direction: column;
+    float: left;
+    display: block;
     text-align: center;
+  }
+  .about-me{
+    
+    float: right;
+  }
+  .skills-section{
+    width: 100%;
+    margin-right: 10px;
   }
   .projects-grid {
     flex-direction: column;
