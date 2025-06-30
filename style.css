@@ -85,13 +85,34 @@ nav{
     text-transform: capitalize;
 }
 .main-left p{
+    display: flex;
     font-size: 1.5rem;
     font-weight: 900;
-    font-size: 1.2rem;
     color: #999;
     text-transform: uppercase;
-    word-spacing: 10px;
+    word-spacing: 8px;
 }
+.main-left p >span{
+    position: relative;
+    display: inline-block;
+    color: chocolate;
+    height: 2.80em;
+    vertical-align: bottom;
+    overflow: hidden;
+}
+.main-left p >span > span{
+    display: block;
+    animation: animatedWords 8s infinite ease-in-out;
+}
+@keyframes animatedWords{
+    0%{transform:translateY(-0%)}
+    25%{transform:translateY(-100%)}
+    50%{transform:translateY(-200%)}
+    75%{transform:translateY(-300%)}
+    100%{transform:translateY(-400%)}
+} 
+    
+
 .main-left h1{
     color: #000000;
     font-size: 3rem;
